@@ -59,7 +59,7 @@ The project is organized as follows:
  ┃ ┗ 📜index.ejs
  ┣ 📜package.json
  ┗ 📜index.js
-\`\`\`
+
 ## 🔧 Key File Descriptions
 
 - **config/database-config.js**: MongoDB configuration to connect the database.
