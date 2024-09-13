@@ -1,7 +1,3 @@
-#!/bin/bash
-
-# Create README.md file
-cat <<EOL > README.md
 # 💬 Real-Time Chat Application
 
 ![Chat App GIF](https://media.giphy.com/media/3o6gE5d96X27pF14ak/giphy.gif)
@@ -51,7 +47,7 @@ Bi-directional communication ensures all users are instantly notified of new mes
 
 The project is organized as follows:
 
-\`\`\`bash
+```bash
 📦chat-app
  ┣ 📂config
  ┃ ┗ 📜database-config.js
@@ -64,6 +60,7 @@ The project is organized as follows:
  ┣ 📜package.json
  ┗ 📜index.js
 \`\`\`
+## 🔧 Key File Descriptions
 
 - **config/database-config.js**: MongoDB configuration to connect the database.
 - **models/chat.js**: Mongoose schema for storing chat data.
@@ -95,8 +92,5 @@ The project is organized as follows:
 - Add **user authentication** with **Passport.js** for more secure communication.
 - Integrate **file sharing** functionality for a richer user experience.
 
-![Coding GIF](https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif)
-
 ---
-
 
